@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Front Row</title>
+        <link rel="stylesheet" href="public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/style.css"/>
+        <script src="public/jquery/jquery-3.6.0.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Ticket Generator</h1>
+                <p class="lead">Feed in the necessary info and go sit wherever you want.</p>
+                <hr class="my-4">
+            </div>
+
+            <form>
+                <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Home Team</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Bruins</option>
+                    </select>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary" id="submit">Submit</button>
+                <!-- <input onclick="myfunc()">Submit</input> -->
+            </form>
+        </div>
+    </body>
+    <script src="public/js/main.js"></script>
+</html>

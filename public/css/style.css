@@ -1,0 +1,12 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(to left top, lightblue, lightblue);
+}
+
+.container {
+    max-width: 75%;
+}
